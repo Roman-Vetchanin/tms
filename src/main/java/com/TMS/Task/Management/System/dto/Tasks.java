@@ -11,7 +11,7 @@ public class Tasks {
 
     public Tasks addResultsItem(Task task) {
         if (this.results == null) {
-            this.results = new ArrayList<>();
+            this.results = new ArrayList<Task>();
         }
         this.results.add(task);
         return this;
